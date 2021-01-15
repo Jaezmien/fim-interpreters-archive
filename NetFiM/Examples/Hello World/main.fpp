@@ -1,0 +1,13 @@
+Dear Princess Celestia: Hello World!
+
+
+Today I learned how to say hello world!
+
+    I said "Hello World!".
+
+That's all about how to say hello world.
+
+
+Your faithful student, Twilight Sparkle.
+
+P.S. This is a code in a paragraph-like structure!

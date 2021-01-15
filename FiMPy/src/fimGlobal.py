@@ -1,0 +1,236 @@
+# Keywords for easier access
+
+Punctuations = ('.', '!', '?', ':', ',')
+
+Report_Identifiers = {
+    "Start": "Dear Princess Celestia: ",
+    "End": "Your faithful student, "
+}
+
+Variable_Declaration = "Did you know that "
+
+###
+
+Methods = {
+    "Write": ("I said ", "I sang ", "I wrote ", "I remembered ", "I would "),
+    "Variable Initialization": ("has", "is", "like", "likes", "was"),
+    "Read": ("I heard ", "I read ", "I asked "),
+
+    "Variable Boolean": ("an argument", "the argument", "the logic", "argument", "logic"),
+    "Variable Boolean Array": ("many arguments", "many logics", "the arguments", "the logics", "arguments", "logics"),
+    "Variable Number": ("the number", "a number", "number"),
+    "Variable Number Array": ("many numbers", "the numbers", "numbers"),
+    "Variable String": ("a phrase", "a quote", "a sentence", "a word", "characters", "letters", "phrase", "quote", "sentence", "the characters", "the letters", "the phrase", "the quote", "the sentence", "the word", "word"),
+    "Variable String Array": ("many phrases", "many quotes", "many sentences", "many words", "phrases", "quotes", "sentences", "the phrases", "the quotes", "the sentences", "the words", "words"),
+    "Variable Character": ("a character", "a letter", "the character", "the letter", "character", "letter"),
+
+    "Variable Replace": ("become", "became", "becomes", "is now", "now likes", "now like", "are now"),
+
+    "Boolean True": ("correct", "right", "true", "yes"),
+    "Boolean False": ("false", "incorrect", "no", "wrong"),
+
+    "Method Return": ("to get", "with"),
+
+    "Variable Square Root": ("sqrt of ","square root of"),
+
+    "Loop While": ("As long as", "While"),
+
+    "Conditional Less Than Equal": ("had no more than", "has no more than", "is no greater than", "is no more than", "is not greater than", "is not more than", "isn't greater than", "isn't more than", "was no greater than", "was no more than", "was not greater than", "was not more than", "wasn't greater than", "wasn't more than", "were no greater than", "were no more than", "were not greater than", "were not more than", "weren't greater than", "weren't more than"),
+    "Conditional Greater Than": ("had more than", "has more than", "is greater than", "was greater than", "were greater than", "were more than", "was more than"),
+    "Conditional Greater Than Equal": ("had no less than", "has no less than", "is no less than", "is not less than", "isn't less than", "was no less than", "was not less than", "wasn't less than", "were no less than", "were not less than", "weren't less than"),
+    "Conditional Less Than": ("had less than", "has less than", "is less than", "was less than", "were less than"),
+    "Conditional Not": ("wasn't equal to", "isn't equal to", "weren't equal to", "hadn't", "had not", "hasn't", "has not", "isn't", "is not", "wasn't", "was not", "weren't", "were not"),
+    "Conditional Equal": ( "is equal to", "was equal to", "were equal to", "had", "has", "is", "was", "were" ),
+
+    "If Statement": ("If","When"),
+    "If Else Statement": ("Or else","Otherwise"),
+
+}
+
+Conditionals = (
+    ('Less Than Equal','<='),
+    ('Greater Than','>'),
+    ('Greater Than Equal','>='),
+    ('Less Than','<'),
+    ('Not','!='),
+    ('Equal','==')
+)
+
+Arithmetic = {
+    "Add": {
+        "Prefix": ("add",),
+        "Prefix Infix": ("and",),
+        "Infix": ("added to","plus")
+    },
+    "Subtract": {
+        "Prefix": ("subtract","the difference between"),
+        "Prefix Infix": ("and",),
+        "Infix": ("minus","without")
+    },
+    "Multiply": {
+        "Prefix": ("multiply", "the product of"),
+        "Prefix Infix": ("by", "and"),
+        "Infix": ("multiplied with", "times")
+    },
+    "Divide": {
+        "Prefix": ("divide",),
+        "Prefix Infix": ("by", "and"),
+        "Infix": ("divided by", "over")
+    },
+    "Remainder": {
+        "Prefix": ("the remainder of",),
+        "Prefix Infix": ("and",),
+        "Infix": ("modulo","mod")
+    }
+}
+
+###
+
+Keywords = (
+    "That's what I would do",
+    "That's what I did",
+    "If all else fails",
+    "Or else", "Otherwise",
+    "On the",
+    "If",
+    "When",
+    "In regards to",
+    "Dear",
+    "I learned",
+    "Did you know that",
+    "Your faithful student",
+    "That's all about",
+    "Remember when I wrote about",
+    "has",
+    "is",
+    "like",
+    "was",
+    "always has",
+    "always is",
+    "always like",
+    "always likes",
+    "always was",
+    "and",
+    "using",
+    "I did this while",
+    "I did this as long as",
+    "That's what I did",
+    "Here's what I did",
+    "I said",
+    "I sang",
+    "I wrote",
+    "I asked",
+    "I heard",
+    "I read",
+    "Then you get",
+    "I remembered",
+    "I would",
+    "argument",
+    "logic",
+    "logics",
+    "number",
+    "character",
+    "letter",
+    "numbers",
+    "phrases",
+    "quotes",
+    "sentences",
+    "words",
+    "phrase",
+    "quote",
+    "sentence",
+    "word",
+    "are now",
+    "become",
+    "became",
+    "becomes",
+    "is now",
+    "now like",
+    "now likes",
+    "using",
+    "to get",
+    "with",
+    "had",
+    "has",
+    "were",
+    "hadn't",
+    "had not",
+    "hasn't",
+    "has not",
+    "isn't",
+    "is not",
+    "wasn't",
+    "was not",
+    "weren't",
+    "were not",
+    "had more than",
+    "has more than",
+    "is greater than",
+    "was greater than",
+    "were greater than",
+    "were more than",
+    "had no less than",
+    "has no less than",
+    "is no less than",
+    "is not less than",
+    "isn't less than",
+    "was no less than",
+    "was not less than",
+    "wasn't less than",
+    "were no less than",
+    "were not less than",
+    "weren't less than",
+    "had less than",
+    "has less than",
+    "is less than",
+    "was less than",
+    "were less than",
+    "had no more than",
+    "has no more than",
+    "is no greater than",
+    "is no more than",
+    "is not greater than",
+    "is not more than",
+    "isn't greater than",
+    "isn't more than",
+    "was no greater than",
+    "was no more than",
+    "was not greater than",
+    "was not more than",
+    "wasn't greater than",
+    "wasn't more than",
+    "were no greater than",
+    "were no more than",
+    "were not greater than",
+    "were not more than",
+    "weren't greater than",
+    "weren't more than",
+    "is equal to",
+    "was equal to",
+    "were equal to",
+    "wasn't equal to",
+    "isn't equal to",
+    "weren't equal to",
+    "As long as",
+    "While",
+    "There was one more",
+    "got one more",
+    "got one less",
+    "There was one less",
+    "add",
+    "added to",
+    "plus",
+    "subtract",
+    "the difference between",
+    "minus",
+    "without",
+    "multiply",
+    "the product of",
+    "by",
+    "and",
+    "multiply with",
+    "times",
+    "divide",
+    "divided by",
+    "over",
+)
